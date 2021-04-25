@@ -1,0 +1,27 @@
+{
+  "name": "snowpack-plugin-delete",
+  "version": "1.0.0",
+  "description": "Deletes the specified folders and files",
+  "keywords": [
+    "snowpack plugin",
+    "snowpack delete file plugin",
+    "snowpack delete folder plugin"
+  ],
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "homepage": "https://github.com/girishnuli/snowpack-plugin-delete",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girishnuli/snowpack-plugin-delete.git"
+  },
+  "license": "MIT",
+  "author": "Girish Nuli",
+  "main": "plugin.js",
+  "files": [
+    "plugin.js"
+  ],
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}

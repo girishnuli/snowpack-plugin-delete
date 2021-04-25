@@ -25,9 +25,9 @@ module.exports = {
     [
       'snowpack-plugin-delete',
       {
-        delete: [
+        patterns: [
           'build/dist',
-          '*.bak'
+          'something-else'
         ],
       },
     ],
@@ -35,7 +35,9 @@ module.exports = {
 };
 ```
 
-## rimraf API
+## rimraf
 
-This plugin uses the npm package [rimraf](https://github.com/isaacs/rimraf).
-Refer to it for the glob patterns that you can pass in delete array.
+This plugin uses the npm package [rimraf] (https://github.com/isaacs/rimraf).
+
+## Credits
+Inspired by https://github.com/donniean/snowpack-plugin-copy
